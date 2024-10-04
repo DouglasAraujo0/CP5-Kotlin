@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/doug"/>
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nome" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email" />
+
+    <TextView
+        android:id="@+id/txtTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/telefone" />
+
+    <TextView
+        android:id="@+id/txtEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/endereco" />
+
+    <TextView
+        android:id="@+id/txtObservacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/observacao" />
+
+    <TextView
+        android:id="@+id/txtOpcao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Opção Selecionada:" />
+
+</LinearLayout>

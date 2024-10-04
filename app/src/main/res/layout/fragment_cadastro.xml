@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/cadastro" />
+
+    <EditText
+        android:id="@+id/inputNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome" />
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email" />
+
+    <EditText
+        android:id="@+id/inputTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telefone" />
+
+    <EditText
+        android:id="@+id/inputEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/endereco" />
+
+    <EditText
+        android:id="@+id/inputObservacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/observacao" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar" />
+
+    <Spinner
+        android:id="@+id/spinnerOpcao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+
+
+</LinearLayout>

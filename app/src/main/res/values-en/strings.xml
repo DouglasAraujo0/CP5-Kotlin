@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Registration and List</string>
+    <string name="nome">Name</string>
+    <string name="email">Email</string>
+    <string name="telefone">Phone</string>
+    <string name="endereco">Address</string>
+    <string name="observacao">Observation</string>
+    <string name="cadastrar">Register</string>
+</resources>

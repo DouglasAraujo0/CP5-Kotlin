@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">CP5-Kotlin</string>
+    <string name="app_name">Cadastro e Lista</string>
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="telefone">Telefone</string>
+    <string name="endereco">Endereço</string>
+    <string name="observacao">Observação</string>
+    <string name="cadastrar">Cadastrar</string>
 </resources>
