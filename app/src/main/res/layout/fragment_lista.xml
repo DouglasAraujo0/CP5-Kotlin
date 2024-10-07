@@ -8,37 +8,42 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/doug"/>
+        android:src="@drawable/doug"
 
     <TextView
         android:id="@+id/txtNome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/nome" />
+        android:text="@string/nome"
+        android:layout_marginBottom="8dp" /> 
 
     <TextView
         android:id="@+id/txtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/email" />
+        android:text="@string/email"
+        android:layout_marginBottom="8dp" /> 
 
     <TextView
         android:id="@+id/txtTelefone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/telefone" />
+        android:text="@string/telefone"
+        android:layout_marginBottom="8dp" /> 
 
     <TextView
         android:id="@+id/txtEndereco"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/endereco" />
+        android:text="@string/endereco"
+        android:layout_marginBottom="8dp" /> 
 
     <TextView
         android:id="@+id/txtObservacao"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/observacao" />
+        android:text="@string/observacao"
+        android:layout_marginBottom="8dp" />
 
     <TextView
         android:id="@+id/txtOpcao"
