@@ -16,21 +16,21 @@ class ListaFragment : Fragment() {
     ): View {
         binding = FragmentListaBinding.inflate(inflater, container, false)
 
-        // Obter os dados do Bundle
+        // Obtendo os dados do Bundle
         val nome = arguments?.getString("NOME")
         val email = arguments?.getString("EMAIL")
         val telefone = arguments?.getString("TELEFONE")
         val endereco = arguments?.getString("ENDERECO")
         val observacao = arguments?.getString("OBSERVACAO")
-        val opcao = arguments?.getString("OPCAO") // Obter a opção selecionada
+        val opcao = arguments?.getString("OPCAO")
 
-        // Exibir os dados na interface (ajuste conforme necessário)
-        binding.txtNome.text = nome
-        binding.txtEmail.text = email
-        binding.txtTelefone.text = telefone
-        binding.txtEndereco.text = endereco
-        binding.txtObservacao.text = observacao
-        binding.txtOpcao.text = opcao // Exibir a opção selecionada
+        // Exibindo os dados na interface e exibindo opcao selecionada
+        binding.txtNome.text = getString(R.string.nome) + ": " + nome
+        binding.txtEmail.text = getString(R.string.email) + ": " + email
+        binding.txtTelefone.text = getString(R.string.telefone) + ": " + telefone
+        binding.txtEndereco.text = getString(R.string.endereco) + ": " + endereco
+        binding.txtObservacao.text = getString(R.string.observacao) + ": " + observacao
+        binding.txtOpcao.text = getString(R.string.opcao) + ": " + opcao
 
         return binding.root
     }
